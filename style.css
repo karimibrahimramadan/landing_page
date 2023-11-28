@@ -11,3 +11,25 @@ ul {
 a {
   text-decoration: none;
 }
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1f2937;
+  padding: 16px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.nav_links {
+  display: flex;
+  gap: 24px;
+}
+
+.nav_links a {
+  font-size: 18px;
+  color: #e5e7eb;
+}
